@@ -1,47 +1,56 @@
-# YouTube Video Downloader  
+# YouTube Video Downloader (nogui Version)
 
-This is a simple Python application with a graphical interface created using the tkinter library. It allows you to download YouTube videos using yt-dlp.  
+This is a simple command-line application written in Python. It allows you to download YouTube videos using yt-dlp, with optional support for cookies files to handle age-restricted content.
 
-## Features  
+## Features
 
-- Download videos by URL: Enter the YouTube video link and download it to your computer.  
-- Use a cookies file (optional): If needed, specify a cookies file for video downloading.  
-- Choose a save directory: Select where the video will be saved.  
-- Simple and intuitive interface.  
+- Download Videos by URL: Just provide the YouTube link and save the video to your computer.  
+- Optional Cookies File: Specify a cookies.txt file if needed, for example, for age-restricted videos.  
+- Custom Save Directory: Choose where the video will be saved or use the current folder by default.  
+- Lightweight and Fast: No graphical interface, just a quick and efficient download process.
 
-## Requirements *(Not required for the ".exe" file)*  
+---
+
+## Requirements
 
 - Python 3.x  
-- Installed yt-dlp utility  
-- tkinter library (included in the standard Python library)  
+- yt-dlp utility  
 
-## Installation and Launch *(Not required for the ".exe" file)*  
+### Installation
 
-1. Install yt-dlp if it is not already installed:  
+1. Install `yt-dlp` if it is not already installed:  
 
 pip install yt-dlp
 
-2. Download or clone the application's code.  
+2. Clone or download this repository.
 
-3. Run the application:  
+---
 
-python "YouTube Video Downloader.py"
+## Usage
 
-## Usage  
+1. Run the script:  
 
-1. Enter the YouTube video link.  
-2. *(Optional)* Specify a cookies file if necessary.  
-3. Choose a directory to save the video.  
-4. Click the "Download Video" button.  
+python "YouTube Video Downloader_nogui.py"
 
-## License  
+2. Follow the prompts:  
+
+- Enter the YouTube video link.  
+- *(Optional)* Specify the path to the cookies.txt file if needed, or just press Enter to skip.  
+- Specify the save directory or press Enter to use the current folder.  
+
+---
+
+## Frequently Asked Questions
+
+### What is `cookies.txt` and why do I need it?  
+
+cookies.txt is needed if the video is age-restricted or requires authentication.  
+You can generate this file using a browser extension like cookies.txt exporter or similar tools.  
+The file helps the application access YouTube servers with your authenticated session, allowing it to bypass restrictions.
+
+---
+
+## License
 
 This application is provided "as is" and is free to use.  
-
-## Frequently Asked Questions  
-
-What is `cookies.txt`?  
-
-Answer: cookies.txt is needed if the video is age-restricted.  
-This file can be downloaded independently using browser extensions that download cookies.txt.
-The file is used by the program when accessing YouTube servers to verify age and gain access to the video.  
+The developer is not responsible for the use of this software for unlawful purposes.  
