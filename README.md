@@ -25,7 +25,7 @@ pip install yt-dlp
 
 3. Run the application:  
 
-python app.py
+python "YouTube Video Downloader.py"
 
 ## Usage  
 
