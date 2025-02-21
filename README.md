@@ -9,8 +9,6 @@ This is a simple command-line application written in Python. It allows you to do
 - Custom Save Directory: Choose where the video will be saved or use the current folder by default.  
 - Lightweight and Fast: No graphical interface, just a quick and efficient download process.
 
----
-
 ## Requirements
 
 - Python 3.x  
@@ -24,8 +22,6 @@ pip install yt-dlp
 
 2. Clone or download this repository.
 
----
-
 ## Usage
 
 1. Run the script:  
@@ -38,8 +34,6 @@ python "YouTube Video Downloader_nogui.py"
 - *(Optional)* Specify the path to the cookies.txt file if needed, or just press Enter to skip.  
 - Specify the save directory or press Enter to use the current folder.  
 
----
-
 ## Frequently Asked Questions
 
 ### What is `cookies.txt` and why do I need it?  
@@ -47,8 +41,6 @@ python "YouTube Video Downloader_nogui.py"
 cookies.txt is needed if the video is age-restricted or requires authentication.  
 You can generate this file using a browser extension like cookies.txt exporter or similar tools.  
 The file helps the application access YouTube servers with your authenticated session, allowing it to bypass restrictions.
-
----
 
 ## License
 
