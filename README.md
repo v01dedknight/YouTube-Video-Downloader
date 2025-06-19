@@ -1,47 +1,47 @@
-# YouTube Video Downloader  
+# YouTube Video Downloader
 
-This is a simple Python application with a graphical interface created using the tkinter library. It allows you to download YouTube videos using yt-dlp.  
+Это простое приложение Python с графическим интерфейсом, созданное с использованием библиотеки tkinter. Оно позволяет загружать видео YouTube с помощью yt-dlp.
 
-## Features  
+## Функции
 
-- Download videos by URL: Enter the YouTube video link and download it to your computer.  
-- Use a cookies file (optional): If needed, specify a cookies file for video downloading.  
-- Choose a save directory: Select where the video will be saved.  
-- Simple and intuitive interface.  
+- Загрузка видео по URL: введите ссылку на видео YouTube и загрузите его на свой компьютер.
+- Использование файла cookie (необязательно): при необходимости укажите файл cookie для загрузки видео.
+- Выбор каталога для сохранения: выберите, где будет сохранено видео.
+- Простой и интуитивно понятный интерфейс.
 
-## Requirements *(Not required for the ".exe" file)*  
+## Требования *(Не требуется для файла ".exe")*
 
-- Python 3.x  
-- Installed yt-dlp utility  
-- tkinter library (included in the standard Python library)  
+- Python 3.x
+- Установленная утилита yt-dlp
+- Библиотека tkinter (входит в стандартную библиотеку Python)
 
-## Installation and Launch *(Not required for the ".exe" file)*  
+## Установка и запуск *(Не требуется для файла ".exe")*
 
-1. Install yt-dlp if it is not already installed:  
+1. Установите yt-dlp, если он еще не установлен:
 
 pip install yt-dlp
 
-2. Download or clone the application's code.  
+2. Загрузите или клонируйте код приложения.
 
-3. Run the application:  
+3. Запустите приложение:
 
 python "YouTube Video Downloader.py"
 
-## Usage  
+## Использование
 
-1. Enter the YouTube video link.  
-2. *(Optional)* Specify a cookies file if necessary.  
-3. Choose a directory to save the video.  
-4. Click the "Download Video" button.  
+1. Введите ссылку на видео YouTube.
+2. *(Необязательно)* Укажите файл cookie, если необходимо.
+3. Выберите каталог для сохранения видео.
+4. Нажмите кнопку "Загрузить видео".
 
-## License  
+## Лицензия
 
-This application is provided "as is" and is free to use.  
+Это приложение предоставляется "как есть" и может использоваться бесплатно.
 
-## Frequently Asked Questions  
+## Часто задаваемые вопросы
 
-What is `cookies.txt`?  
+Что такое `cookies.txt`?
 
-Answer: cookies.txt is needed if the video is age-restricted.  
-This file can be downloaded independently using browser extensions that download cookies.txt.
-The file is used by the program when accessing YouTube servers to verify age and gain access to the video.  
+Ответ: cookies.txt необходим, если видео имеет возрастное ограничение.
+Этот файл можно загрузить самостоятельно с помощью расширений браузера, которые загружают cookies.txt.
+Файл используется программой при доступе к серверам YouTube для проверки возраста и получения доступа к видео.
